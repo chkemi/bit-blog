@@ -1,14 +1,15 @@
 import React from 'react';
 
-const AuthorAdress = (props) => {
+const AuthorAddress = (props) => {
+
     return (
         <>
             <div className='clearfix'>
                 <div className='float-left'>
                     <h2>Adress</h2>
-                    <p>street: <b>Bla Bla St</b></p>
-                    <p>city: <b>Bla Bla city</b></p>
-                    <p>zipcode: <b>12312</b></p>
+                    <p>Street: <b>{props.info.street}</b></p>
+                    <p>City: <b>{props.info.city}</b></p>
+                    <p>Zipcode: <b>{props.info.zipCode}</b></p>
                 </div>
                 <iframe className='float-right'>whoho</iframe>
             </div>
@@ -17,4 +18,4 @@ const AuthorAdress = (props) => {
     );
 }
 
-export default AuthorAdress;
+export default AuthorAddress;
