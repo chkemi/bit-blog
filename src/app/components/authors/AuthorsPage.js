@@ -20,7 +20,7 @@ class AuthorsPage extends Component {
 
     renderAuthors() {
         return this.state.authors.map((author) => {
-            return <li key={author.id} className='list-group-item mt-3'><Link to={`/author/${author.id}`}>{author.name} (posts)</Link></li>
+            return <li key={author.id} className='list-group-item mt-3'><Link to={`/author/${author.id}`}>{author.name}</Link></li>
         })
     }
 
