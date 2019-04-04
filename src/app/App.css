@@ -5,13 +5,17 @@
 body {
     margin: 0;
     padding: 0;
+    background: #9da389;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.nav-link {
+    color: #0000ff;
 }
 
-header ul {
-    list-style-type: none;
+span {
+    color: #0000ff;
+}
+
+header, .card-footer {
+    background: #7da2a9;
 }

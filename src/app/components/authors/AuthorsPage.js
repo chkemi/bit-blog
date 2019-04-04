@@ -9,14 +9,14 @@ class AuthorsPage extends Component {
     render() {
         return (
             <>
-                <h2>AUTHORS (6)</h2>
-                <ul>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
-                    <li><Link to='/author/1'>Name Surname (posts)</Link></li>
+                <h2 className='text-center mt-5'>AUTHORS (6)</h2>
+                <ul className="list-group mt-5">
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
+                    <li className='list-group-item mt-3'><Link to='/author/1'>Name Surname (posts)</Link></li>
                 </ul>
             </>
         );

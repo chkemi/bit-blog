@@ -10,7 +10,7 @@ const PostsList = (props) => {
     })
 
     return (
-        <ul>
+        <ul className="list-group">
             {myPosts}
         </ul>
     );

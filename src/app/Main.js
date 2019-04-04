@@ -8,13 +8,15 @@ import SingleAuthorPage from './components/authors/SingleAuthorPage';
 
 const Main = (props) => {
     return (
-        <Switch>
-            <Route path='/about' component={AboutPage} />
-            <Route path='/authors' component={AuthorsPage} />
-            <Route path='/postpage' component={SinglePostPage} />
-            <Route path='/author/1' component={SingleAuthorPage} />
-            <Route path='/' component={PostsPage} />
-        </Switch>
+        <main className='container'>
+            <Switch>
+                <Route path='/about' component={AboutPage} />
+                <Route path='/authors' component={AuthorsPage} />
+                <Route path='/postpage' component={SinglePostPage} />
+                <Route path='/author/1' component={SingleAuthorPage} />
+                <Route path='/' component={PostsPage} />
+            </Switch>
+        </main>
     );
 }
 

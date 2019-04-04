@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const PostListItem = (props) => {
     return (
-        <li>
+        <li className="list-group-item border-0 mt-3">
             <Link to='/postpage'>
                 <h3>{props.post.title}</h3>
             </Link>

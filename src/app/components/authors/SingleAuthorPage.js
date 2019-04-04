@@ -15,7 +15,7 @@ class SingleAuthorPage extends Component {
                 <Link to='/authors'>
                     <span>&lt; All authors</span>
                 </Link>
-                <h2>Single Author</h2>
+                <h2 className='text-center'>Single Author</h2>
                 <AuthorInfo />
                 <AuthorAdress />
                 <AuthorCompany />

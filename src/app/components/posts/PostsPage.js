@@ -30,7 +30,7 @@ class PostsPage extends Component {
     render() {
         return (
             <>
-                <h1>POSTS</h1>
+                <h1 className='text-center mt-4 mb-5'>POSTS</h1>
                 <PostsList posts={this.state.posts} />
             </>
         );

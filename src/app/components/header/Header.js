@@ -3,9 +3,11 @@ import Nav from './Nav';
 
 const Header = (props) => {
     return (
-        <header>
-            <h1>BIT BLOG</h1>
-            <Nav />
+        <header className='clearfix'>
+            <div className='container'>
+                <h1 className='float-left'>BIT BLOG</h1>
+                <Nav />
+            </div>
         </header>
     );
 }
