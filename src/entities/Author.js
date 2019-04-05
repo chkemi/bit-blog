@@ -10,6 +10,7 @@ export default class Author {
         this.companyName = company.name;
         this.companySlogan = company.catchPhrase;
         this.phone = phone;
-
+        this.lat = address.geo.lat;
+        this.lng = address.geo.lng
     }
 }
