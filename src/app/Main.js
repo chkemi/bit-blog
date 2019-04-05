@@ -5,6 +5,7 @@ import AboutPage from './components/AboutPage';
 import AuthorsPage from './components/authors/AuthorsPage';
 import SinglePostPage from './components/posts/SinglePostPage';
 import SingleAuthorPage from './components/authors/SingleAuthorPage';
+import NewPost from './components/NewPost';
 
 const Main = (props) => {
     return (
@@ -14,6 +15,7 @@ const Main = (props) => {
                 <Route path='/authors' component={AuthorsPage} />
                 <Route path='/postpage/:id' component={SinglePostPage} />
                 <Route path='/author/:id' component={SingleAuthorPage} />
+                <Route path='/post/new' component={NewPost} />
                 <Route path='/' component={PostsPage} />
             </Switch>
         </main>
